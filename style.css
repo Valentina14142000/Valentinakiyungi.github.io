@@ -1,0 +1,96 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    font-size: 1.3vw;
+    
+}
+
+#logo {
+    margin: 0px;
+    padding: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 15%;
+    color: black;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.navbutton {
+    color: blue;
+    text-decoration: none;
+    padding: 12px;
+}
+
+#nav-ul {
+    display: flex;
+    margin: 16px;
+}
+
+.s1{
+    text-align: center;
+    background-color: lightgreen;
+}
+
+.i1{
+   margin-top: 30px;
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+}
+
+.i3 {
+    align-items: center;
+}
+
+.round {
+    background-color: gainsboro;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 1000px;
+}
+
+body > header {
+    background-color: gainsboro;
+    color: blue;
+    display: flex;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+img {
+    width: 50%;
+    height: 40%;
+}
+
+.parent {
+    display: flex;
+    color: white;
+}
+
+.ch1 {
+    background-image: url("https://avatars.mds.yandex.net/i?id=efff72f03c4d157167bb763ef28bb6ab864c2d2aae4ec267-4304126-images-thumbs&n=13")
+}
+
+.ch2 {
+    background-color: honeydew;
+}
+
+.ch3 {
+    background-color: lightgreen;
+}
+
+body > footer {
+    background-color: gainsboro;
+    display: flex;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+    word-spacing: 15px;
+}
